@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="fruit-ninja">
+    <output-path>$PROJECT_DIR$/out/artifacts/fruit_ninja</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="gui.Main" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="fruit_ninja.jar">
+        <element id="module-output" name="fruit-ninja" />
+      </element>
+      <element id="library" level="project" name="jfoenix-8.0.8" />
+      <element id="library" level="project" name="org.reflections:reflections:0.9.12" />
+    </root>
+  </artifact>
+</component>

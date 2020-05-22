@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "greeting-font";
+}
+
+.label {
+    -fx-font: 35pt "Hanging Letters";
+    -fx-text-fill : linear-gradient(#ffffff, #331a00);
+}
+
+.root {
+   -fx-background-image : url("/resources/images/cover.jpg");
+   -fx-background-size : cover;
+}
+
+.button {
+    -fx-background-color: #4d2600;
+    -fx-background-radius: 20;
+    -fx-text-fill: #fff;
+}
+
+.text-field {
+    -fx-background-color : #fff;
+    -fx-prompt-text-fill : grey;
+}
+

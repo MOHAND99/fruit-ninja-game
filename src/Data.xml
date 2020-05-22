@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+    <players>
+        <player>
+            <name>1</name>
+            <username>1</username>
+            <password>1</password>
+            <bestClassicScore>8</bestClassicScore>
+            <bestArcadeScore>0</bestArcadeScore>
+        </player>
+    </players>
+</data>

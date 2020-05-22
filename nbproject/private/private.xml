@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Mhnd%20Bshar/Desktop/fruit%20ninja/assignment_3_6160_6656_6668_6670/src/gui/views/GameTimeController.java</file>
+            <file>file:/C:/Users/Mhnd%20Bshar/Desktop/fruit%20ninja/assignment_3_6160_6656_6668_6670/src/fruitninja/GameObject.java</file>
+            <file>file:/C:/Users/Mhnd%20Bshar/Desktop/fruit%20ninja/assignment_3_6160_6656_6668_6670/src/fruitninja/objects/bombs/Bomb.java</file>
+            <file>file:/C:/Users/Mhnd%20Bshar/Desktop/fruit%20ninja/assignment_3_6160_6656_6668_6670/src/entities/Player.java</file>
+            <file>file:/C:/Users/Mhnd%20Bshar/Desktop/fruit%20ninja/assignment_3_6160_6656_6668_6670/src/fruitninja/objects/GameObject.java</file>
+            <file>file:/C:/Users/Mhnd%20Bshar/Desktop/fruit%20ninja/assignment_3_6160_6656_6668_6670/src/gui/controllers/NewUserController.java</file>
+            <file>file:/C:/Users/Mhnd%20Bshar/Desktop/fruit%20ninja/assignment_3_6160_6656_6668_6670/Data.xml</file>
+            <file>file:/C:/Users/Mhnd%20Bshar/Desktop/fruit%20ninja/assignment_3_6160_6656_6668_6670/fruit-ninja.iml</file>
+            <file>file:/C:/Users/Mhnd%20Bshar/Desktop/fruit%20ninja/assignment_3_6160_6656_6668_6670/src/fruitninja/gametypes/ArcadeGame.java</file>
+            <file>file:/C:/Users/Mhnd%20Bshar/Desktop/fruit%20ninja/assignment_3_6160_6656_6668_6670/src/gui/controllers/ModeSceneController.java</file>
+            <file>file:/C:/Users/Mhnd%20Bshar/Desktop/fruit%20ninja/assignment_3_6160_6656_6668_6670/src/fruitninja/objects/fruits/Fruit.java</file>
+            <file>file:/C:/Users/Mhnd%20Bshar/Desktop/fruit%20ninja/assignment_3_6160_6656_6668_6670/src/gui/controllers/Authentication.java</file>
+            <file>file:/C:/Users/Mhnd%20Bshar/Desktop/fruit%20ninja/assignment_3_6160_6656_6668_6670/src/gui/views/GamePane.java</file>
+            <file>file:/C:/Users/Mhnd%20Bshar/Desktop/fruit%20ninja/assignment_3_6160_6656_6668_6670/src/fruitninja/gametypes/GameModeFactory.java</file>
+            <file>file:/C:/Users/Mhnd%20Bshar/Desktop/fruit%20ninja/assignment_3_6160_6656_6668_6670/src/fruitninja/gametypes/ClassicGame.java</file>
+            <file>file:/C:/Users/Mhnd%20Bshar/Desktop/fruit%20ninja/assignment_3_6160_6656_6668_6670/src/entities/adapted/AdaptedPlayer.java</file>
+            <file>file:/C:/Users/Mhnd%20Bshar/Desktop/fruit%20ninja/assignment_3_6160_6656_6668_6670/src/gui/views/SignInScreen.java</file>
+            <file>file:/C:/Users/Mhnd%20Bshar/Desktop/fruit%20ninja/assignment_3_6160_6656_6668_6670/src/fruitninja/objects/factories/FruitFactory.java</file>
+            <file>file:/C:/Users/Mhnd%20Bshar/Desktop/fruit%20ninja/assignment_3_6160_6656_6668_6670/src/fruitninja/difficulties/Difficulty.java</file>
+            <file>file:/C:/Users/Mhnd%20Bshar/Desktop/fruit%20ninja/assignment_3_6160_6656_6668_6670/src/gui/Main.java</file>
+            <file>file:/C:/Users/Mhnd%20Bshar/Desktop/fruit%20ninja/assignment_3_6160_6656_6668_6670/src/entities/adapter/PlayerAdapter.java</file>
+            <file>file:/C:/Users/Mhnd%20Bshar/Desktop/fruit%20ninja/assignment_3_6160_6656_6668_6670/src/fruitninja/Dimensions.java</file>
+            <file>file:/C:/Users/Mhnd%20Bshar/Desktop/fruit%20ninja/assignment_3_6160_6656_6668_6670/build.xml</file>
+            <file>file:/C:/Users/Mhnd%20Bshar/Desktop/fruit%20ninja/assignment_3_6160_6656_6668_6670/src/fruitninja/Game.java</file>
+            <file>file:/C:/Users/Mhnd%20Bshar/Desktop/fruit%20ninja/assignment_3_6160_6656_6668_6670/artifacts%20(JAR)/fruit_ninja/OPEN_THIS.bat</file>
+            <file>file:/C:/Users/Mhnd%20Bshar/Desktop/fruit%20ninja/assignment_3_6160_6656_6668_6670/src/entities/adapted/Data.java</file>
+            <file>file:/C:/Users/Mhnd%20Bshar/Desktop/fruit%20ninja/assignment_3_6160_6656_6668_6670/src/gui/controllers/IntroController.java</file>
+            <file>file:/C:/Users/Mhnd%20Bshar/Desktop/fruit%20ninja/assignment_3_6160_6656_6668_6670/src/gui/controllers/SignInController.java</file>
+            <file>file:/C:/Users/Mhnd%20Bshar/Desktop/fruit%20ninja/assignment_3_6160_6656_6668_6670/src/fruitninja/difficulties/ClassicDifficulty.java</file>
+            <file>file:/C:/Users/Mhnd%20Bshar/Desktop/fruit%20ninja/assignment_3_6160_6656_6668_6670/src/fruitninja/ObjectsGenerator.java</file>
+        </group>
+    </open-files>
+</project-private>

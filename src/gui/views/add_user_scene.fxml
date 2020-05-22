@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+      prefHeight="591.0" prefWidth="496.0" spacing="30.0" stylesheets="@add-user-style.css"
+      xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="gui.controllers.NewUserController">
+    <Label text="Welcome to fruit ninja" textFill="WHITE">
+        <font>
+            <Font size="29.0"/>
+        </font>
+    </Label>
+    <Region prefHeight="30.0" prefWidth="496.0"/>
+    <JFXTextField fx:id="nameField" alignment="CENTER" layoutX="81.0" layoutY="223.0" maxWidth="354.0" prefHeight="40.0"
+                  prefWidth="354.0" promptText="name" unFocusColor="#e6ac00">
+        <font>
+            <Font size="16.0"/>
+        </font>
+    </JFXTextField>
+    <JFXTextField fx:id="userNameField" alignment="CENTER" maxWidth="354.0" prefHeight="40.0" prefWidth="354.0"
+                  promptText="user name" unFocusColor="#e6ac00">
+        <font>
+            <Font size="16.0"/>
+        </font>
+    </JFXTextField>
+    <JFXPasswordField fx:id="passwordField" alignment="CENTER" maxHeight="40.0" maxWidth="354.0" prefHeight="40.0"
+                      prefWidth="354.0" promptText="password"/>
+    <JFXPasswordField fx:id="confirmPasswordField" alignment="CENTER" layoutX="81.0" layoutY="359.0" maxHeight="40.0"
+                      maxWidth="354.0" prefHeight="40.0" prefWidth="354.0" promptText="confirm password"/>
+    <Region prefHeight="0.0" prefWidth="496.0"/>
+    <JFXButton fx:id="signUp" onAction="#addNewPlayer" onMouseEntered="#enlargeButton" onMouseExited="#minimizeButton"
+               prefHeight="49.0" prefWidth="152.0" style="-fx-background-color: #4d2600; -fx-background-radius: 20;"
+               text="sign up"/>
+    <Region prefHeight="15.0" prefWidth="496.0"/>
+    <AnchorPane prefHeight="37.0" prefWidth="496.0">
+        <children>
+            <JFXButton fx:id="backButton" layoutX="21.0" onAction="#goBackToMainScreen" onMouseEntered="#enlargeButton"
+                       onMouseExited="#minimizeButton" prefHeight="24.0" prefWidth="24.0"
+                       style="-fx-background-color: #4d2600; -fx-background-radius: 20;">
+                <graphic>
+                    <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="/resources/images/back-arrow.png"/>
+                        </image>
+                    </ImageView>
+                </graphic>
+            </JFXButton>
+        </children>
+    </AnchorPane>
+    <padding>
+        <Insets bottom="20.0"/>
+    </padding>
+</VBox>

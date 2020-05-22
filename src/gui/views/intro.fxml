@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.controllers.IntroController">
+    <children>
+        <ImageView fitHeight="595.0" fitWidth="610.0" layoutX="-15.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="/resources/images/fruitninja.jpg" />
+            </image>
+        </ImageView>
+        <Label layoutX="55.0" layoutY="5.0" />
+        <Label layoutX="337.0" layoutY="5.0" />
+        <JFXButton fx:id="startButton" layoutX="193.0" layoutY="375.0" onAction="#goToSignInScreen" onMouseEntered="#enlargeButton" onMouseExited="#minimizeButton" prefHeight="31.0" prefWidth="183.0" style="-fx-background-radius: 200; -fx-background-color: #FFFACD;" text="Play">
+            <font>
+                <Font name="System Bold" size="25.0" />
+            </font>
+        </JFXButton>
+        <JFXButton fx:id="playButton" layoutX="195.0" layoutY="453.0" onAction="#goToModeScene" onMouseEntered="#enlargeButton" onMouseExited="#minimizeButton" prefHeight="53.0" prefWidth="183.0" style="-fx-background-color: #FFFACD; -fx-background-radius: 200;" text="New Player">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </JFXButton>
+    </children>
+</AnchorPane>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="556.0" prefWidth="489.0" stylesheets="@add-user-style.css"
+            xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="gui.controllers.ModeSceneController">
+    <Label alignment="CENTER" layoutX="85.0" prefHeight="43.0" prefWidth="294.0" text="Choose a mode">
+        <font>
+            <Font name="Hanging Letters" size="29.0"/>
+        </font>
+        <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+                <stops>
+                    <Stop color="BLACK"/>
+                    <Stop color="BLACK" offset="1.0"/>
+                </stops>
+            </LinearGradient>
+        </textFill>
+    </Label>
+    <VBox alignment="CENTER" layoutY="8.0" prefHeight="556.0" prefWidth="489.0" spacing="40.0">
+        <children>
+            <Region prefHeight="150.0" prefWidth="489.0"/>
+            <JFXButton alignment="CENTER" onAction="#goToArcadeMode" onMouseEntered="#enlargeButton"
+                       onMouseExited="#minimizeButton" prefHeight="41.0" prefWidth="92.0"
+                       style="-fx-background-color: #4d2600; -fx-background-radius: 20;" text="Arcade"
+                       textFill="#ebe5e5"/>
+            <JFXButton alignment="CENTER" onAction="#goToClassicMode" onMouseEntered="#enlargeButton"
+                       onMouseExited="#minimizeButton" prefHeight="43.0" prefWidth="89.0"
+                       style="-fx-background-color: #4d2600; -fx-background-radius: 20;" text="Classic"
+                       textFill="#ebe5e5"/>
+            <AnchorPane prefHeight="78.0" prefWidth="489.0">
+                    <JFXButton fx:id="backButton" layoutX="21.0" layoutY="46.0" onAction="#goBackToMainScreen"
+                               onMouseEntered="#enlargeButton" onMouseExited="#minimizeButton"
+                               style="-fx-background-color: #4d2600; -fx-background-radius: 20;">
+                        <graphic>
+                            <ImageView fitHeight="27.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+                                <image>
+                                    <Image url="/resources/images/back-arrow.png"/>
+                                </image>
+                            </ImageView>
+                        </graphic>
+                    </JFXButton>
+            </AnchorPane>
+        </children>
+    </VBox>
+</AnchorPane>
